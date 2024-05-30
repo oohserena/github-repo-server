@@ -5,7 +5,6 @@ import dotenv from "dotenv";
 dotenv.config();
 
 function SearchRoutes(app) {
-    // const token = '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';
 
     const searchRepos = async (req, res) => {
         const { username } = req.params;
